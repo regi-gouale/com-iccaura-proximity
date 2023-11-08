@@ -7,7 +7,9 @@ import {
 import { AppComponent } from "./app/app.component";
 import { importProvidersFrom } from "@angular/core";
 
-const routes: Routes = [{ path: "", redirectTo: "/home", pathMatch: "full" }];
+const routes: Routes = [
+  { path: "", redirectTo: "/events", pathMatch: "full" },
+{ path: "", loadChildren: () => import("./app/components/proximity.routes").then(m => m.default) },];
 
 bootstrapApplication(AppComponent, {
   providers: [
