@@ -8,7 +8,10 @@ import { CommonModule } from '@angular/common';
   template: `
     <header>
       <div class="container">
-        <a href="#" routerLink="/" class="logo">ICC AuRA | Proximity</a>
+        <a href="#" routerLink="/" class="logo">
+          <img src="assets/images/logoicc.png" alt="logo" class="logo-image"/>
+          <span>Proximity </span>
+        </a>
         <nav>
           <ul>
             <li><a href="#" routerLink="/home">Accueil</a></li>

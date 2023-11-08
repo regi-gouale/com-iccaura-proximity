@@ -1,37 +1,56 @@
-header{
+header {
     background: white;
     padding: 0;
-    border-bottom: 1px solid red;
+
 }
 
-a{
+a {
     color: black;
     text-decoration: none;
 }
-a:hover{
-    background: red;
+
+a:hover {
+    background: rgb(190, 140, 140);
     color: white;
     font-weight: bold;
 }
 
-.container{
+.container {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
-a.logo{
-    font-weight: bold;
+a.logo {
     padding: 1rem;
+    display: flex;
 }
 
-nav ul{
+a.logo:hover {
+    text-decoration: solid;
+}
+
+.logo img {
+    width: 2rem;
+    margin-left: 1rem;
+}
+
+a.logo span {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: black;
+    margin-left: 2rem;
+    display: inline-block;
+    align-self: center;
+}
+
+nav ul {
     list-style-type: none;
     margin: 0rem;
     display: flex;
 }
 
-nav ul li a{
+nav ul li a {
     padding: 1rem;
     display: inline-block;
 }
