@@ -45,3 +45,8 @@ Thumbs.db
 pb
 **/pb_data/**
 **/pb_migrations/**
+
+# Environments
+**/environments/**/*.ts
+src/assets/environments/environment.dev.ts
+src/assets/environments/environment.ts
