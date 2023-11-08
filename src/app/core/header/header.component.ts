@@ -19,8 +19,7 @@ import { CommonModule } from '@angular/common';
       </div>
     </header>
   `,
-  styles: [
-  ]
+  styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
 
